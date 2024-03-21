@@ -1,3 +1,15 @@
+install.packages("arcgisbinding")
+library(arcgisbinding)
+
+arc.check_product()
+
+# Installing and loading required packages
+install.packages(c("drought", "tidyverse", "caret", "randomForest"))
+library(drought)
+library(tidyverse)
+library(caret)
+library(randomForest)
+
 # Input data
 set.seed(123)
 data <- data.frame(
